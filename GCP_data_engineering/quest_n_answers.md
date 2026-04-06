@@ -228,3 +228,25 @@ check \
 Configure the job to run on Dataproc Serverless. \
 Dataproc Serverless will automatically provision the resources to run your Dataproc jobs. \
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Your score: 50% Passing score: 50% \
+Congratulations! You passed this assessment. \
+close \
+1. \
+ \
+A company collects large amounts of data that is useful for improving business operations. The collected data is already clean and is in a format that is suitable for further analysis. The company uses BigQuery as a data warehouse. What approach will you recommend to move this data to BigQuery? \
+close \
+Split the data into smaller files and then move to Google Cloud. \
+Directly load the data using Extract and Load approach ( EL). \
+Implement Extract, Transform and Load (ETL) pipelines using tools like Dataflow. \
+Do transformation using Extract, Load & Transform (ELT). \
+Incorrect. \
+check \
+2. \
+ \
+A company wants to improve productivity and decides to programmatically schedule and monitor workflows. What tool can you use to automate your workflows? \
+Data Fusion \
+Dataproc \
+check \
+Cloud Composer \
+Apache Beam and Dataflow \
+Correct. \
