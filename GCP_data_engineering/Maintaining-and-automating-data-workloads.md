@@ -1,3 +1,4 @@
+MODULE 5 \
 Maintaining-and-automating-data-workloads \
 Maintaining-and-automating-data-workloads at cymbal Retail \
 Diagnostic questions \
