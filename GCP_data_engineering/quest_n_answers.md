@@ -124,3 +124,107 @@ check \
 Use the Cloud Data Loss Prevention API (DLP API) to inspect and redact PII data. \
 Ensure that all stored data is monitored by Security Command Center. \
 Correct. \
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Your score: 50% Passing score: 80% \
+Unfortunately, you need at least a 80% to pass this assessment. Not to worry though, review your answers and try again. \
+check \
+1. \
+ \
+The first stage of your data pipeline processes tens of terabytes of financial data and creates a sparse, time-series dataset as a key-value pair. Which of these is a suitable sink for the pipeline's first stage? \
+Cloud Storage \
+AlloyDB \
+Cloud SQL \
+check \
+Bigtable \
+Correct. Bigtable is ideal for applications that need high throughput and scalability for key/value data, where each value is typically no larger than 10 MB: Bigtable is suitable for applications that work on time-series data, such as financial applications. \
+close \
+2. \
+ \
+You are creating a data pipeline for streaming data on Dataflow for Cymbal Retail's point of sales data. You want to calculate the total sales per hour on a continuous basis. Which of these windowing options should you use? \
+Tumbling windows (fixed windows in Apache Beam) \
+close \
+Hopping windows (sliding windows in Apache Beam) \
+Global window \
+Session windows \
+Incorrect. Hopping windows (or sliding windows in Apache Beam) can overlap and are not the right option for this requirement. \
+check \
+3. \
+ \
+Your company has multiple data analysts but a limited data engineering team. You need to choose a tool where the analysts can build data pipelines themselves with a graphical user interface. Which of these products is the most appropriate? \
+Dataproc \
+Cloud Composer \
+check \
+Cloud Data Fusion \
+Dataflow \
+Correct. The Cloud Data Fusion web UI lets you build scalable data integration solutions to clean, prepare, blend, transfer, and transform data, without having to manage the infrastructure. \
+close \
+4. \
+ \
+You need to run batch jobs, which could take many days to complete. You do not want to manage the infrastructure provisioning. What should you do? \
+Run the jobs on Batch. \
+close \
+Use Cloud Run to run the jobs. \
+Use Workflows to run the jobs. \
+Use Cloud Scheduler to run the jobs. \
+Incorrect. Cloud Run has limits on the maximum time of a running process and is not a viable option for long running data processing jobs. \
+close \
+5. \
+ \
+You are processing large amounts of input data in BigQuery. You need to combine this data with a small amount of frequently changing data that is available in Cloud SQL. What should you do? \
+Copy the data from Cloud SQL and create a combined, normalized table hourly. \
+close \
+Create a Dataflow pipeline to combine the BigQuery and Cloud SQL data when the Cloud SQL data changes. \
+Use a federated query to get data from Cloud SQL. \
+Copy the data from Cloud SQL to a new BigQuery table hourly. \
+Incorrect. Because the data is frequently changing, computation and costs might be excessive. \
+check \
+6. \
+ \
+You want to build a streaming data analytics pipeline in Google Cloud. You need to choose the right products that support streaming data. Which of these would you choose? \
+Cloud Storage, Dataflow, Cloud SQL \
+Cloud Storage, Dataprep, AlloyDB \
+Pub/Sub, Dataprep, BigQuery \
+check \
+Pub/Sub, Dataflow, BigQuery \
+Correct. Pub/Sub, Dataflow, and BigQuery support streaming data and form the recommended pipeline for continuous data processing. \
+check \
+7. \
+ \
+You are running Dataflow jobs for data processing. When developers update the code in Cloud Source Repositories, you need to test and deploy the updated code with minimal effort. Which of these would you use to build your continuous integration and delivery (CI/CD) pipeline for data processing? \
+Cloud Code \
+Terraform \
+Compute Engine \
+check \
+Cloud Build \
+Correct. Cloud Build can be configured to watch for updates in the source repository and trigger a series of steps, as required, to implement a CI/CD pipeline. \
+close \
+8. \
+ \
+Your data engineering team receives data in JSON format from external sources at the end of each day. You need to design the data pipeline. What should you do? \
+Make your BigQuery data warehouse public and ask the external sources to insert the data. \
+Store the data in persistent disks and create an ETL pipeline. \
+close \
+Create a public API to allow external applications to add the data to your warehouse. \
+Store the data in Cloud Storage and create an extract, transform, and load (ETL) pipeline. \
+Incorrect. Data added by external sources might not have the transformations you require. \
+close \
+9. \
+ \
+You have a data pipeline that requires you to monitor a Cloud Storage bucket for a file, start a Dataflow job to process data in the file, run a shell script to validate the processed data in BigQuery, and then delete the original file. You need to orchestrate this pipeline by using recommended tools. Which product should you choose? \
+Cloud Scheduler \
+close \
+Cloud Tasks \
+Cloud Run \
+Cloud Composer \
+Incorrect. Cloud Tasks is for asynchronous task execution and is not the preferred tool for data pipeline orchestration. \
+check \
+10. \
+ \
+You manage a PySpark batch data pipeline by using Dataproc: You want to take a hands-off approach to running the workload, and you do not want to provision and manage your own cluster. What should you do? \
+Configure the job to run with Spot VMs. \
+Rewrite the job in Dataflow with SQL. \
+Rewrite the job in Spark SQL. \
+check \
+Configure the job to run on Dataproc Serverless. \
+Dataproc Serverless will automatically provision the resources to run your Dataproc jobs. \
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
