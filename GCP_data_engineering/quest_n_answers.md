@@ -101,3 +101,26 @@ Create a regular expression to identify and delete patterns that resemble credit
 Delete all columns with a title similar to "credit card," "phone," and "email." \
 Use the Cloud Data Loss Prevention API (DLP API) to perform date shifting of any entries with credit card numbers, phone numbers, and email IDs. \
 Correct. The Cloud Data Loss Prevention API, part of Sensitive Data Protection, helps you discover, classify, and protect your most sensitive data. There are predefined infoTypes that you can employ to identify and redact specific data types. \
+
+Your score: 50% Passing score: 50% \
+Congratulations! You passed this assessment. \
+close \
+1. \
+ \
+Your company is very serious about data protection and hence decides to implement the Principle of Least Privilege. What should you do to comply with this policy? \
+close \
+Ensure that the access permissions are given strictly based on the person’s title and job role. \
+Ensure that the users are verified every time they request access, even if they were authenticated earlier. \
+Give just enough permissions to get the task done. \
+When a task is assigned, ensure that it gets assigned to a person with the minimum privileges. \
+Incorrect. \
+check \
+2. \
+ \
+A company collects lots of consumer data from online marketing campaigns. Company plans to use Google Cloud to store this collected data. The top management is worried about exposing personally identifiable information (PII) that may be present in this data. What should you do to reduce the risk of exposing PII data? \
+Store all data in BigQuery and turn on column level access to protect sensitive data. \
+Ensure that all PII data is removed from the collected data before storing it on Google Cloud. \
+check \
+Use the Cloud Data Loss Prevention API (DLP API) to inspect and redact PII data. \
+Ensure that all stored data is monitored by Security Command Center. \
+Correct. \
