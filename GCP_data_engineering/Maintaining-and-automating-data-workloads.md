@@ -92,3 +92,6 @@ Take Dataflow snapshots periodically. \
 Create Dataflow jobs from templates. \
 Enable vertical autoscaling. \
 Enable Dataflow shuffle. \
+
+<img width="1765" height="875" alt="image" src="https://github.com/user-attachments/assets/c1d2dc2e-9d77-4e7f-b027-2ec79ac6c03b" />
+<img width="1565" height="886" alt="image" src="https://github.com/user-attachments/assets/e6aa10fc-7fcc-4dd4-8d4f-cbcf06f4476a" />
